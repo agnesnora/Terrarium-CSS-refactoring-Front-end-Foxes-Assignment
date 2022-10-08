@@ -1,0 +1,96 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+}
+
+h1 {
+  color: #3a241d;
+  text-align: center;
+}
+
+#page {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+#left-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: start;
+}
+#right-container {
+  display: flex;
+  align-items: flex-end;
+}
+
+img {
+  width: 12vw;
+}
+
+.plant-holder {
+  padding: 0;
+}
+
+.jar-walls {
+  height: 80vh;
+  width: 40%;
+  background: #d1e1df;
+  border-radius: 2.2rem;
+  position: absolute;
+  bottom: 0.5%;
+  left: 30%;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.jar-top {
+  width: 30%;
+  height: 5vh;
+  background: #d1e1df;
+  position: absolute;
+  bottom: 80.5%;
+  left: 35%;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+.jar-bottom {
+  width: 30%;
+  height: 1vh;
+  background: #d1e1df;
+  position: absolute;
+  bottom: 0%;
+  left: 35%;
+  opacity: 0.7;
+}
+
+.dirt {
+  width: 40%;
+  height: 5vh;
+  background: #3a241d;
+  position: absolute;
+  border-radius: 0 0 2em 2rem;
+  bottom: 1%;
+  left: 30%;
+  opacity: 0.7;
+  z-index: -1;
+}
+
+.jar-glossy-short,
+.jar-glossy-long {
+  width: 3%;
+  background-color: #eefeff;
+  position: absolute;
+  left: 17%;
+  border-radius: 40px;
+}
+
+.jar-glossy-short {
+  height: 4vh;
+  bottom: 46%;
+}
+
+.jar-glossy-long {
+  height: 21vh;
+  bottom: 22%;
+}
